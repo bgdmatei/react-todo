@@ -22,16 +22,18 @@ form {
 }
 form input,
 form button {
-  padding: 0.5rem;
+  padding: 0.3rem;
   font-size: 2rem;
   border: none;
   background: white;
+  border-radius: 4px 0px 0px 4px;
 }
 form button {
   color: #ff6f47;
   background: #f7fffe;
   cursor: pointer;
   transition: all 0.3s ease;
+  border-radius: 0px 4px 4px 0px;
 }
 form button:hover {
   background: #ff6f47;
@@ -57,6 +59,7 @@ form button:hover {
   justify-content: space-between;
   align-items: center;
   transition: all 1s ease;
+  border-radius: 4px;
 }
 .filter-todo {
   padding: 1rem;
@@ -79,6 +82,9 @@ form button:hover {
 }
 .todo-item {
   padding: 0rem 0.5rem;
+}
+.trash-btn {
+  border-radius: 0px 4px 4px 0px;
 }
 
 .fa-trash,
@@ -126,10 +132,11 @@ select {
   position: absolute;
   top: 0;
   right: 0;
-  padding: 1rem;
+  padding: 0.76rem;
   background: #ff6f47;
   cursor: pointer;
   pointer-events: none;
+  border-radius: 0px 4px 4px 0px;
 }
 /* Transition */
 /*
